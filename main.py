@@ -16,7 +16,6 @@ async def dm(ctx, member : Member, *, message):
 #mass dm command
 @client.command()
 async def mass_dm(ctx, num : int, *,message):
-    try:
         await ctx.message.delete()
         try:
             int(num)
@@ -25,10 +24,11 @@ async def mass_dm(ctx, num : int, *,message):
         members = ctx.guild.members
         for member in members:
             for i in range(num):
-                await member.send(message)
-                print(f"message sent to {member.name}#{member.discriminator}")
-    except Exception as e:
-        print(e)
+                try:
+                    await member.send(message)
+                    print(f"message sent to {member.name}#{member.discriminator}")
+                except Exception as e:
+                    print(e)
 client.login("token")#put your token here 
 
 
