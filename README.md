@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> jhksznsoikwaesioAWs
+> This is a simple selfBot , you can dm to someone or mass dm in a server , hope U enjoy it .
 
 ### 🏠 [Homepage](https://github.com/Kuamrozh/Discord_Dm_SelfBot#readme)
 
