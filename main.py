@@ -29,6 +29,6 @@ async def mass_dm(ctx, num : int, *,message):
                     print(f"message sent to {member.name}#{member.discriminator}")
                 except Exception as e:
                     print(e)
-client.login("token")#put your token here 
+client.run("token")#put your token here 
 
 
