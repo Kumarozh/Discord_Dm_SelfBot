@@ -26,16 +26,12 @@
 
 ```sh
 pip install -r requirment.txt
-or
-pip3 install -r requirment.txt
 ```
 
 ## Usage
 
 ```sh
 pyhton main.py
-or
-python3 main.py
 ```
 
 ## Author
