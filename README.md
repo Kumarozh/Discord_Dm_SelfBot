@@ -1,6 +1,5 @@
 <h1 align="center">Welcome to Discord_Dm_selfbot 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.5-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/author-Kuamrozh-lightgrey" />
   <img src="https://img.shields.io/badge/version-0.0.5-green" />
   <img src="https://img.shields.io/badge/python-3.9.7-yellowgreen" />
