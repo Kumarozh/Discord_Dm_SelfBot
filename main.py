@@ -1,6 +1,7 @@
 import discord
 from discord import Member
 from discord.ext import commands
+from asyncio import sleep
 client = commands.Bot(command_prefix="!", self_bot = True)
 @client.event
 async def on_ready():
@@ -27,6 +28,7 @@ async def mass_dm(ctx, num : int, *,message):
                 try:
                     await member.send(message)
                     print(f"message sent to {member.name}#{member.discriminator}")
+                    await sleep(5)
                 except Exception as e:
                     print(e)
 client.run("token")#put your token here 
